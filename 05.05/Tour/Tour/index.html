@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Главная страница</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="./styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <img src="./assets/images/logotour.png" alt="Логотип турфирмы">
+    <input class="input_placeholder" type="text" placeholder="Поиск">
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__list-item fade"><a href="" class="navigation__link">Главная страница</a></li>
+        <li class="navigation__list-item fade"><a href="" class="navigation__link">Поиск маршрутов</a></li>
+        <li class="navigation__list-item fade"><a href="" class="navigation__link">Выбор конкретных зон</a></li>
+        <li class="navigation__list-item fade"><a href="" class="navigation__link">Страница бронирования</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="title-section">
+      <h1>Главная страница</h1>
+    </section>
+
+    <section class="promotions-section">
+      <h2 class="title">Акции</h2>
+      <div class="promotions">
+        <article class="promotion promotion_white-text promotion-photo-1">
+          <h3 class="promotion-name">Индивидуальная обзорная экскурсия по Пензе</h3>
+          <p class="promotion__value">1500 рублей</p>
+          <p>За одного человека</p>
+          <a href="" class="promotion-link animation_arrange">Оформить</a>
+        </article>
+        <article class="promotion promotion-photo-2">
+          <h3 class="promotion-name">Зимняя сказка в Пензе</h3>
+          <p class="promotion__value">4000 рублей</p>
+          <p>За 4 человек</p>
+          <a href="" class="promotion-link animation_arrange">Оформить</a>
+        </article>
+        <article class="promotion promotion_white-text promotion-photo-3">
+          <h3 class="promotion-name">Дворянская усадьба Тарханы</h3>
+          <p class="promotion__value">3000 рублей</p>
+          <p>За 2 человек</p>
+          <a href="" class="promotion-link animation_arrange">Оформить</a>
+        </article>
+      </div>
+    </section>
+    <section class="banner-section">
+      <a href="" class="banner-info">Read more</a>
+      <h2 class="banner-title">Алоритм бронирования</h2>
+    </section>
+    <section class="info-section">
+      <h2 class="title">Информация о компании</h2>
+      <div class="info">
+        <article class="info__block">
+          <h3 class="info__title">Цель</h3>
+          <img src="./assets/images/Photo7.png" alt="" class="info__photo">
+        </article>
+        <article class="info__block-with-link">
+          <h3 class="info__title">Отзывы клиентов</h3>
+          <a href="" class="info__link reviews_view_animation">Посмотреть</a>
+        </article>
+        <article class="info__block">
+          <h3 class="info__title">Девиз</h3>
+          <img src="./assets/images/Photo6.png" alt="" class="info__photo">
+        </article>
+      </div>
+    </section>
+    <section class="search-section">
+      <h2 class="search-title">Форма поиска</h2>
+      <div class="search">
+        <p class="search__description">Вы можете заполнить форму поиска и узнать - есть ли туры по тем регионам, которые вы хотели посетить</p>
+        <form class="search__form">
+          <select class="search__field">
+            <option value="Пенза">Пензенская область</option>
+            <option value="Тарханы">Тарханы</option>
+            <option value="Сура">Сура</option>
+            <option value="Радищево">Радищево</option>
+            <option value="Наровчат">Наровчат</option>
+          </select>
+          <input class="search__field" type="date">
+          <select class="search__field">
+            <option value="1">1 человек</option>
+            <option value="2">2 человека</option>
+            <option value="3">3 человека</option>
+            <option value="4">4 человека</option>
+          </select>
+          <button class="search__button animation_arrange" type="submit">Поиск</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <address class="address">Телефон: 8-(800)-555-35-35</address>
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__list-item fade"><a href="" class="navigation__link navigation__link_white">Главная страница</a></li>
+        <li class="navigation__list-item fade"><a href="" class="navigation__link navigation__link_white">Поиск маршрутов</a></li>
+        <li class="navigation__list-item fade"><a href="" class="navigation__link navigation__link_white">Выбор конкретных зон</a></li>
+        <li class="navigation__list-item fade"><a href="" class="navigation__link navigation__link_white">Страница бронирования</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>
